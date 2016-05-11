@@ -1,0 +1,21 @@
+<%-- any content can be specified here e.g.: --%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/storecss.css">
+        <title>Super City Life Store</title>
+    </head>
+    <body>
+         <div id = "header">
+            <img src="img/store_logo.jpg">
+            <h1>Super City Life Store</h1>
+                
+                <form action="ControllerServlet" method="get">
+                    <Input type="submit" class="button" value="Home" name="home">
+                    <Input type="submit" class="button" value="Cart" name="viewCart">
+                    
+                </form>
+        </div>
+                <%@ page import = "javax.servlet.RequestDispatcher" %>

@@ -1,0 +1,126 @@
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Detergine', 2.50, 'per bottle ', 100, DEFAULT, 4, 'home');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Bean', 2.99, '175g', 100, DEFAULT, 1, 'vege');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Asparagus', 3.99, '200g', 100, DEFAULT, 1, 'vege');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Cabbage', 3.15, 'ea', 100, DEFAULT, 1, 'vege');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Carrot', 2.78, '1kg', 100, DEFAULT, 1, 'vege');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Spinach', 3.89, 'per pack', 100, DEFAULT, 1, 'vege');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Whole Chichen', 18.99, 'Size 20 ea', 100, DEFAULT, 1, 'meat');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Diced Lamb', 3.45, '100g', 100, DEFAULT, 1, 'meat');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Pork Mince', 2.89, '100g', 100, DEFAULT, 1, 'meat');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Snapper Fillet', 2.56, '100g', 100, DEFAULT, 1, 'meat');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Salmon Fillet', 3.24, '100g', 100, DEFAULT, 1, 'meat');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Apple', 2.99, '1kg', 100, DEFAULT, 1, 'fruit');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Banana', 1.29, '1kg', 100, DEFAULT, 1, 'fruit');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Grape', 7.89, 'per pack', 100, DEFAULT, 1, 'fruit');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Pear', 3.50, '6 per pack', 100, DEFAULT, 1, 'fruit');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Mango', 4.00, 'ea', 100, DEFAULT, 1, 'fruit');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Cheese', 6.78, '350g', 100, DEFAULT, 1, 'dairy');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Butter', 3.50, '500g', 100, DEFAULT, 1, 'dairy');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Yoghurt', 3.45, '750ml', 100, DEFAULT, 1, 'dairy');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Bread', 4.25, 'ea', 100, DEFAULT, 1, 'dairy');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Egg', 9.89, 'Size 7 30 per tray', 100, DEFAULT, 1, 'dairy');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Cream', 3.45, '750ml', 100, DEFAULT, 1, 'dairy');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('V', 2.89, '250ml', 100, DEFAULT, 2, 'enrgy');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Red Bull', 3.50, '375ml', 100, DEFAULT, 2, 'enrgy');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Coffee', 10.50, '90g', 100, DEFAULT, 2, 'enrgy');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Flavoured Coffee', 11.45, '90g', 100, DEFAULT, 2, 'enrgy');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Spring', 3.50, '1L', 100, DEFAULT, 2, 'water');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Sparkling', 3.68, '1L', 100, DEFAULT, 2, 'water');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Mineral', 3.75, '1L', 100, DEFAULT, 2, 'water');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Natural', 1.99, '1L', 100, DEFAULT, 2, 'water');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Coke', 2.50, '200ml', 100, DEFAULT, 2, 'fizz');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Sprite', 2.50, '200ml', 100, DEFAULT, 2, 'fizz');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('L&P', 2.50, '200ml', 100, DEFAULT, 2, 'fizz');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Mango Fizz', 3.00, '350ml', 100, DEFAULT, 2, 'fizz');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Lemon Fizz', 3.10, '350ml', 100, DEFAULT, 2, 'fizz');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Grape Soda', 4.50, '350ml', 100, DEFAULT, 2, 'fizz');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Rockmelon Soda', 4.50, '350ml', 100, DEFAULT, 2, 'fizz');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Blue Top Milk', 5.60, '1L', 100, DEFAULT, 2, 'dairy');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Trim Milk', 5.78, '1L', 100, DEFAULT, 2, 'dairy');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Soy Milk', 6.53, '1L', 100, DEFAULT, 2, 'dairy');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Almond Milk', 6.78, '1L', 100, DEFAULT, 2, 'dairy');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Yoghurt Drink', 3.45, '378ml', 100, DEFAULT, 2, 'dairy');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Panadol', 9.78, '20 capsules', 100, DEFAULT, 3, 'med');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Cold & Flu Pills', 18.45, '15 capsules', 100, DEFAULT, 3, 'med');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Throaties', 2.00, '6 per pack', 100, DEFAULT, 3, 'med');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Eye Drop', 10.00, '15ml', 100, DEFAULT, 3, 'med');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Fish Oil', 5.60, '100 capsules', 100, DEFAULT, 3, 'supp');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Vitamin A', 15.45, '60 capsules', 100, DEFAULT, 3, 'supp');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Vitamin C', 14.25, '60 capsules', 100, DEFAULT, 3, 'supp');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Vitamin E', 13.45, '60 capsules', 100, DEFAULT, 3, 'supp');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Iron', 19.99, '30 capsules', 100, DEFAULT, 3, 'supp');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Diet Pills', 25.43, '60 capsules', 100, DEFAULT, 3, 'supp');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Diet Replacement', 56.21, '10 Meals', 100, DEFAULT, 3, 'supp');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Protein Powder', 55.41, '1KG', 100, DEFAULT, 3, 'supp');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Tooth Paste', 5.30, 'ea', 100, DEFAULT, 4, 'self');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Tooth Brush', 1.89, 'ea', 100, DEFAULT, 4, 'self');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Hand Cream', 20.45, '750ml', 100, DEFAULT, 4, 'self');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Body Wash', 7.89, '1L', 100, DEFAULT, 4, 'self');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Perfume', 200.12, 'per 100ml', 100, DEFAULT, 4, 'self');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Toilet Roll', 8.99, '20 rolls', 100, DEFAULT, 4, 'home');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Air Freshner', 10.45, '2pk', 100, DEFAULT, 4, 'home');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Towel', 12.45, 'ea', 100, DEFAULT, 4, 'home');
+INSERT INTO supercitylifestore.item (`name`, price, description, quantity, last_update, category_id, `type`) 
+	VALUES ('Detergine', 2.50, 'per bottle ', 100, DEFAULT, 4, 'home');

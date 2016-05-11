@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>ControllerServlet</servlet-name>
+        <servlet-class>servlet.ControllerServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DatabaseServlet</servlet-name>
+        <servlet-class>servlet.DatabaseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ControllerServlet</servlet-name>
+        <url-pattern>/ControllerServlet</url-pattern>
+        <url-pattern>/catalog</url-pattern>
+        <url-pattern>/viewCart</url-pattern>
+        <url-pattern>/addToCart</url-pattern>
+        <url-pattern>/updateCart</url-pattern>
+        <url-pattern>/checkout</url-pattern>
+        <url-pattern>/purchase</url-pattern>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DatabaseServlet</servlet-name>
+        <url-pattern>/DatabaseServlet</url-pattern>
+    </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    <jsp-config>
+        <jsp-property-group>
+            <description>header and footer Setting</description>
+            <url-pattern>/index.jsp</url-pattern>
+            <url-pattern>/WEB-INF/view/*</url-pattern>
+            <include-prelude>/WEB-INF/jspf/header.jspf</include-prelude>
+            <include-coda>/WEB-INF/jspf/footer.jspf</include-coda>
+        </jsp-property-group>
+    </jsp-config>
+</web-app>

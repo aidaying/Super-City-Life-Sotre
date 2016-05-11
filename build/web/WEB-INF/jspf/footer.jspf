@@ -1,0 +1,11 @@
+<%-- any content can be specified here e.g.: --%>
+
+<div id = "footer">
+    <ul>
+        <li>Tsz Ying Chung</li>
+        <li>0956929</li>
+        <li>qfj3235@autuni.ac.nz</li>
+    </ul>
+</div>
+</body>
+</html>
